@@ -1,0 +1,1279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B92A4A07207690E0F684EA0F5CD017 /* JsonResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20E0538347CC2604C0AD212A70961DA /* JsonResponseSerializer.swift */; };
+		07223BDC7689C939CEE5E45841BB890F /* FeedHenry-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF31FEDFB003A6E4723FB2182A00446 /* FeedHenry-Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07BE452BD0D5FA5D175301B86429F623 /* AeroGearHttp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 421E729E16DAA6209BAE1886FE2E615C /* AeroGearHttp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BF221F2DA215CA9D50B404F836A6C24 /* FHSyncClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FF10DE538F96E7D074C36BB2900AF7 /* FHSyncClient.m */; };
+		17CD24BE4DAAB127BC68BC9C9E35DE71 /* InitRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201F578A2AD2782E5313FCC68AE60CF5 /* InitRequest.swift */; };
+		1ABDCB051C87EFF9F04EEDDB44544B29 /* StringResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D0ED7D5B71394A50A2CEE965556B80 /* StringResponseSerializer.swift */; };
+		1CEC2146B6FBAB19B63BD1F2EF73CAEC /* FHSyncDataRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEF121E6F1F9F2CD71B200812DCE527 /* FHSyncDataRecord.m */; };
+		2141ACC5529BB76399F748A6997E29A1 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1B8E3019CFD7CA5727DDFDA136F5D /* Utils.swift */; };
+		21FF9A845A5E7C879C04D6E0A2E77240 /* FHSyncPendingDataRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A27EC5414EBD8CF0B264EE6FD32A851 /* FHSyncPendingDataRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		258F10B3B29D58004157590619B53DBD /* Pods-blank-ios-app-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E7E96C2AA4D3AC4DB166756E69930C /* Pods-blank-ios-app-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		296BB9B1DE85144F1F9426BD670FA758 /* FeedHenry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E21ED48FFCF14462FDB243C04631B3E /* FeedHenry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EEC62316436446607214E022636F27A /* DeviceRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06810438CF6FF00EC8563BE1ED63F310 /* DeviceRegistration.swift */; };
+		3884DEE04982FB7D73EB7F7D2043FAD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657FE5B9E9659F624658FCF2166D74B /* Foundation.framework */; };
+		3969DBF09ABFDB8F241424984B24C4C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657FE5B9E9659F624658FCF2166D74B /* Foundation.framework */; };
+		3CC7B5CD5992A2E60A1D713C8FFC4B6E /* FHSyncConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 331374C3F5E7EEE8058609F2706B8BF5 /* FHSyncConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4268388B5D6D1EB34AFC5A041C5FEB35 /* FHSyncDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B635FD8D867C4BFEE8EA7C9D8532D5FC /* FHSyncDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4588B9C78DC70CB57DED5115DDA4318E /* AeroGearPush-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE649B7EC691DB894B4EE8479C3994D /* AeroGearPush-Swift-dummy.m */; };
+		46DBE792A3F93B07F984F50F926991F1 /* FHSyncNotificationMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2583A93E3CCCB179583F3AC68C0F4 /* FHSyncNotificationMessage.m */; };
+		482543038BD4B6815A1485C866E37E1F /* FHSyncDataset.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F1DBCDD4BAC85DC9A11AD74B97F9F9 /* FHSyncDataset.m */; };
+		4A263EEC537D28B04CF0C01D25B1DE57 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F08DE00A736C027346412B6137D1B95 /* ReachabilitySwift-dummy.m */; };
+		4A8D553041E84AFE0CF11DFE06FF0DB1 /* FHDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC718BDE39A551C7996D6A1D773BD28 /* FHDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AF8D894121C6A751008D40FAF9B0EBE /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0F250BE7C042FF851FAA49055AA39A /* Response.swift */; };
+		4D2F340B0A85F18ADAEEF63B99331D00 /* FHSyncUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BAF61599849B7561F71202FA57F772B /* FHSyncUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FEFF27053D552ECE58944692FAE0869 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657FE5B9E9659F624658FCF2166D74B /* Foundation.framework */; };
+		5083AE6DE2074A07613A9ED3EE4C9524 /* AeroGearPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659EC397D978576B435BA7EAD030EAB0 /* AeroGearPush.framework */; };
+		54B1E80D0FDE5E3B8CC418F7DCFCC98E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657FE5B9E9659F624658FCF2166D74B /* Foundation.framework */; };
+		583128F162DB5ECA00D3EA65F5D4EB8B /* ResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A97FB901B2F92253BE0B7A32F6FBC2 /* ResponseSerializer.swift */; };
+		587C06A6790F7D8CF4E5B9F94B1B2A4D /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F84F3BE0D8F7D5B810F372CDA341E /* AuthRequest.swift */; };
+		5C2BAC8DD4C80D666388C7FEEC31D484 /* OAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A8F764EDD2AFB6874149F058849F60 /* OAuthViewController.swift */; };
+		61DBAC6EE076DCC349F6422BC196DA9F /* FHSyncClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CB08E50AEEAC425651C6D210ED13D72 /* FHSyncClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B50128CF98227F927B106F4149BF885 /* AeroGearHttp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7725520808748E1EE89A13AD8A7F664 /* AeroGearHttp-dummy.m */; };
+		6D5EDB28C2EBD1DADA66728E2951225B /* FHJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BF32E87962A9237E0EF506EBB06A02DD /* FHJSON.m */; };
+		6EA94E34F92A0ADC6C34E9D9B798C48D /* AeroGearPush-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0885CBC873D7A5FC2B27D59B97A41852 /* AeroGearPush-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73260370825ACE24DC7D299A0B4BE273 /* PushAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37002A0172D735C825EB1F3FD1BC99FA /* PushAnalytics.swift */; };
+		7549AB375C3BAE7805BBEA3E70FD0FAD /* AuthzModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C09DBEF4270FBC8A129DD26DADB6F18 /* AuthzModule.swift */; };
+		7A599F4113A79EC1414F72B213A7671C /* FeedHenry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AF2F45C53ED7B43EA9260A9FC221D2 /* FeedHenry-dummy.m */; };
+		800F032CC685912EBE0536E693CD7029 /* AeroGearHttp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB2E0C2DF35489E4BE7B0A0C9493E63 /* AeroGearHttp.framework */; };
+		8C162A1133B0B32C2DA59D57DAE489D9 /* FHSyncUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 917976865373C865F6C76ADC69934827 /* FHSyncUtils.m */; };
+		9928118B8B70EA5E5DE1BEE1CA8AE54A /* FHSyncDataset.h in Headers */ = {isa = PBXBuildFile; fileRef = F458D2918D9F4BD5E3559D770EFD2D1F /* FHSyncDataset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DADADDE49A59F3C9DCCEBFCF5AC4EFD /* CloudProps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC49A09F045F773503BD48776FC215F /* CloudProps.swift */; };
+		A263CD7DA2021657C0CD227E81A6DB92 /* FHSyncNotificationMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4CB7507E363DBDBE70B63978D42326 /* FHSyncNotificationMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A285B8375E8399604ADCA1B3B17C3814 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7657FE5B9E9659F624658FCF2166D74B /* Foundation.framework */; };
+		A6A85E0A189A08FF7E9282C087557E4C /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4ABCA22684A541908B09B0A75EDFB9 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A807CE494B179C0D5E0FD4E6F8ED27A1 /* FHSyncPendingDataRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB6144126DE7E13C9A41FB95CC84544 /* FHSyncPendingDataRecord.m */; };
+		B2F5F6A84070E991F0B0262CA07C42E7 /* FHJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D77F0B8293E954FD1E79D78D1439904 /* FHJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3C10D2ECA64FAE1B71202AE36557C4D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 999526F31A6D99BA0B164892DB2EA4D2 /* SystemConfiguration.framework */; };
+		B7B49D390DB3A174E4A8D5E996CEE025 /* JsonRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC680ECFC75C2DAFC4C48AE8F0802BF /* JsonRequestSerializer.swift */; };
+		B82A6F1F2F45DDD489BD6A5A2A69B80F /* ClientDeviceInformationImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F712A7132D744E392CD03765ECC52F08 /* ClientDeviceInformationImpl.swift */; };
+		C2787880B8A9B25F510CD6D41145A866 /* FHSyncConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E4871D2BD51BEF4BE006CB7C63C647 /* FHSyncConfig.m */; };
+		C705066A76A4AF89FA7FEE76B58BD4A1 /* FH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B903C3533FE6A5B60A1FD986873CA87 /* FH.swift */; };
+		D155E060A73F7FA61528D039BF524705 /* FHSyncDataRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = F3AC2EE567807506B956F88CBEBBFF24 /* FHSyncDataRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D366EF07F555375C9703B3F54867D286 /* PushConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C885F5818DC77D2706A2C4D0915E8B1 /* PushConfig.swift */; };
+		D4FF638CDDCD29D576E96608320A23AE /* HttpRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F4AB989E18896E4DDCB73673B2D91 /* HttpRequestSerializer.swift */; };
+		D8352FAE4A05191485D1A268FEFE651C /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82443E57FDC1A1717C63742DFCCED5E0 /* Reachability.swift */; };
+		DA514F97D3EC99FF9BD4DCA60874AB77 /* MultiPartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AE8129F5582E0C2AF9285C52B7CB96 /* MultiPartData.swift */; };
+		DE63CB8872A7899D7A40D6C3122E1CE7 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5793FAC6BBDADDEEFF0057AE3EBA4767 /* Config.swift */; };
+		E7D8140C05F8609B21EA51CBB8839746 /* Pods-blank-ios-app-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF05A6FD57A4F1874846DAADFB598AD4 /* Pods-blank-ios-app-dummy.m */; };
+		E87AE372AFE87BAE79EB79137DEBF6ED /* ClientDeviceInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E81844C9ED9AA70C2336093E606366 /* ClientDeviceInformation.swift */; };
+		EC015F679BB3325876C31DBE11D3F6AE /* CloudRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FABBC71A940E6E615471717124BA427 /* CloudRequest.swift */; };
+		F196BD280743EBDE2803D58B6D8CEF5C /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AA443C77D20F9FD0EE57ACF8282423 /* Reachability.framework */; };
+		FC6516F2268BA356ECE05AC77A25CC3F /* Http.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BCAF15A70051DB6895A9A132C48BEB /* Http.swift */; };
+		FE0DB6CCCA9B4029C38D1BDD8B7A26C4 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C90A6170C24E4F40A0A7CB941A255 /* Request.swift */; };
+		FFA3B9FDF7FD78243B1585089FE798D5 /* RequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A7A759776A9E2DB57E3279E0A73EE7 /* RequestSerializer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		054DCEBFE76AC91FE33EC344121131A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A9243EF5ACC09ADE120BA5882A9CADB;
+			remoteInfo = "AeroGearPush-Swift";
+		};
+		0F5BE83DD9F52907161262E8BD6BFCC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AAF1DD1DE413A1969136F1BFB030B08;
+			remoteInfo = AeroGearHttp;
+		};
+		99D38040FAB2B2F80A1FD7CD89D17AFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 477EC8912E9BECF0C4B18AFDB535A4D1;
+			remoteInfo = ReachabilitySwift;
+		};
+		BE23B79F76F1DA6F24E7BC582764A20C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88980A53447DB0D8FFE6E1D440A7D67B;
+			remoteInfo = FeedHenry;
+		};
+		D70A84C7C21D53066A79AAA1EF5822A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AAF1DD1DE413A1969136F1BFB030B08;
+			remoteInfo = AeroGearHttp;
+		};
+		D927BEB5C2E1F1C27253A06F29A7B7F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 477EC8912E9BECF0C4B18AFDB535A4D1;
+			remoteInfo = ReachabilitySwift;
+		};
+		F3ADFAC228A1AC8E0E1AE3A12A6BD4CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A9243EF5ACC09ADE120BA5882A9CADB;
+			remoteInfo = "AeroGearPush-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042415AD3A8156E00EBC81AF1D0A2875 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06810438CF6FF00EC8563BE1ED63F310 /* DeviceRegistration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceRegistration.swift; path = AeroGearPush/DeviceRegistration.swift; sourceTree = "<group>"; };
+		08245A734D2FC250E03F6E575D311721 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0873BEACBE30A142A7D92BCF2C61C117 /* Pods-blank-ios-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-blank-ios-app.release.xcconfig"; sourceTree = "<group>"; };
+		0885CBC873D7A5FC2B27D59B97A41852 /* AeroGearPush-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AeroGearPush-Swift-umbrella.h"; sourceTree = "<group>"; };
+		0A0F84F3BE0D8F7D5B810F372CDA341E /* AuthRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthRequest.swift; path = FeedHenry/Cloud/AuthRequest.swift; sourceTree = "<group>"; };
+		0DD84BFDD9B593FDBD02EE4F3A9CAD85 /* Pods-blank-ios-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-blank-ios-app.debug.xcconfig"; sourceTree = "<group>"; };
+		139485AC5F744A9142E4BBBF038E2042 /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+		192C90A6170C24E4F40A0A7CB941A255 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = FeedHenry/Cloud/Request.swift; sourceTree = "<group>"; };
+		201F578A2AD2782E5313FCC68AE60CF5 /* InitRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InitRequest.swift; path = FeedHenry/Cloud/InitRequest.swift; sourceTree = "<group>"; };
+		23B39BF0ADE138F228ECE86FD143FEA2 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		253D4A204218707C215FB05FD6F85467 /* AeroGearPush-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AeroGearPush-Swift.xcconfig"; sourceTree = "<group>"; };
+		27C58A480CC9D34932FC7AD1B01EC10E /* FeedHenry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeedHenry-prefix.pch"; sourceTree = "<group>"; };
+		2AB6144126DE7E13C9A41FB95CC84544 /* FHSyncPendingDataRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHSyncPendingDataRecord.m; path = FeedHenry/Sync/FHSyncPendingDataRecord.m; sourceTree = "<group>"; };
+		2CB08E50AEEAC425651C6D210ED13D72 /* FHSyncClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHSyncClient.h; path = FeedHenry/Sync/FHSyncClient.h; sourceTree = "<group>"; };
+		2CEF121E6F1F9F2CD71B200812DCE527 /* FHSyncDataRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHSyncDataRecord.m; path = FeedHenry/Sync/FHSyncDataRecord.m; sourceTree = "<group>"; };
+		30BCAF15A70051DB6895A9A132C48BEB /* Http.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Http.swift; path = AeroGearHttp/Http.swift; sourceTree = "<group>"; };
+		331374C3F5E7EEE8058609F2706B8BF5 /* FHSyncConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHSyncConfig.h; path = FeedHenry/Sync/FHSyncConfig.h; sourceTree = "<group>"; };
+		3434EA9B55EF32DF43829E132DAFA6AC /* FeedHenry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FeedHenry.framework; path = FeedHenry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37002A0172D735C825EB1F3FD1BC99FA /* PushAnalytics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushAnalytics.swift; path = AeroGearPush/PushAnalytics.swift; sourceTree = "<group>"; };
+		39AA443C77D20F9FD0EE57ACF8282423 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF2583A93E3CCCB179583F3AC68C0F4 /* FHSyncNotificationMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHSyncNotificationMessage.m; path = FeedHenry/Sync/FHSyncNotificationMessage.m; sourceTree = "<group>"; };
+		40EBBB7351A7071004FD762B17B2F52C /* Pods-blank-ios-app-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-blank-ios-app-acknowledgements.plist"; sourceTree = "<group>"; };
+		421E729E16DAA6209BAE1886FE2E615C /* AeroGearHttp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AeroGearHttp-umbrella.h"; sourceTree = "<group>"; };
+		46A1B8E3019CFD7CA5727DDFDA136F5D /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = AeroGearHttp/Utils.swift; sourceTree = "<group>"; };
+		4BAF61599849B7561F71202FA57F772B /* FHSyncUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHSyncUtils.h; path = FeedHenry/Sync/FHSyncUtils.h; sourceTree = "<group>"; };
+		4C885F5818DC77D2706A2C4D0915E8B1 /* PushConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushConfig.swift; path = FeedHenry/PushConfig.swift; sourceTree = "<group>"; };
+		4D8522F21202C9D30F7433EE99A2747E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE649B7EC691DB894B4EE8479C3994D /* AeroGearPush-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AeroGearPush-Swift-dummy.m"; sourceTree = "<group>"; };
+		4F2AED1ECA1F3CC485111CA2E2C64CA8 /* AeroGearPush-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "AeroGearPush-Swift.modulemap"; sourceTree = "<group>"; };
+		4F8F0C447C70EB6B9EF075C014590391 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		55AF2F45C53ED7B43EA9260A9FC221D2 /* FeedHenry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FeedHenry-dummy.m"; sourceTree = "<group>"; };
+		5753238BED3969FB869597EBA5B8FA0D /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5793FAC6BBDADDEEFF0057AE3EBA4767 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = FeedHenry/Config/Config.swift; sourceTree = "<group>"; };
+		5B0F250BE7C042FF851FAA49055AA39A /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = FeedHenry/Cloud/Response.swift; sourceTree = "<group>"; };
+		5FABBC71A940E6E615471717124BA427 /* CloudRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloudRequest.swift; path = FeedHenry/Cloud/CloudRequest.swift; sourceTree = "<group>"; };
+		659EC397D978576B435BA7EAD030EAB0 /* AeroGearPush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AeroGearPush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6694D6050197820229A52D5EB3F2ACA4 /* AeroGearHttp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AeroGearHttp.modulemap; sourceTree = "<group>"; };
+		68C070F62C5DB069EE28FEAC9A98E07E /* Pods-blank-ios-app-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-blank-ios-app-resources.sh"; sourceTree = "<group>"; };
+		6ABC2433D8DB21CB3BBE41B109D85380 /* AeroGearHttp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AeroGearHttp-prefix.pch"; sourceTree = "<group>"; };
+		6DC7E7A7E305ABCDB08D123398720287 /* AeroGearPush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AeroGearPush.framework; path = "AeroGearPush-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E21ED48FFCF14462FDB243C04631B3E /* FeedHenry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FeedHenry.h; path = FeedHenry/FeedHenry.h; sourceTree = "<group>"; };
+		6F08DE00A736C027346412B6137D1B95 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		6FF390580819CA532B2650C641D3F5A0 /* AeroGearPush-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AeroGearPush-Swift-prefix.pch"; sourceTree = "<group>"; };
+		7657FE5B9E9659F624658FCF2166D74B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76A97FB901B2F92253BE0B7A32F6FBC2 /* ResponseSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerializer.swift; path = AeroGearHttp/ResponseSerializer.swift; sourceTree = "<group>"; };
+		7A27EC5414EBD8CF0B264EE6FD32A851 /* FHSyncPendingDataRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHSyncPendingDataRecord.h; path = FeedHenry/Sync/FHSyncPendingDataRecord.h; sourceTree = "<group>"; };
+		82443E57FDC1A1717C63742DFCCED5E0 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
+		83E7E96C2AA4D3AC4DB166756E69930C /* Pods-blank-ios-app-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-blank-ios-app-umbrella.h"; sourceTree = "<group>"; };
+		85E4871D2BD51BEF4BE006CB7C63C647 /* FHSyncConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHSyncConfig.m; path = FeedHenry/Sync/FHSyncConfig.m; sourceTree = "<group>"; };
+		8D3F4AB989E18896E4DDCB73673B2D91 /* HttpRequestSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpRequestSerializer.swift; path = AeroGearHttp/HttpRequestSerializer.swift; sourceTree = "<group>"; };
+		917976865373C865F6C76ADC69934827 /* FHSyncUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHSyncUtils.m; path = FeedHenry/Sync/FHSyncUtils.m; sourceTree = "<group>"; };
+		91E81844C9ED9AA70C2336093E606366 /* ClientDeviceInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClientDeviceInformation.swift; path = AeroGearPush/ClientDeviceInformation.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		999526F31A6D99BA0B164892DB2EA4D2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		9AFA1000F57E0C2F67B0A11E6681BCF4 /* AeroGearHttp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AeroGearHttp.framework; path = AeroGearHttp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B903C3533FE6A5B60A1FD986873CA87 /* FH.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FH.swift; path = FeedHenry/FH.swift; sourceTree = "<group>"; };
+		9C09DBEF4270FBC8A129DD26DADB6F18 /* AuthzModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthzModule.swift; path = AeroGearHttp/AuthzModule.swift; sourceTree = "<group>"; };
+		9CC49A09F045F773503BD48776FC215F /* CloudProps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloudProps.swift; path = FeedHenry/Config/CloudProps.swift; sourceTree = "<group>"; };
+		9D77F0B8293E954FD1E79D78D1439904 /* FHJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHJSON.h; path = FeedHenry/Sync/FHJSON.h; sourceTree = "<group>"; };
+		9DF31FEDFB003A6E4723FB2182A00446 /* FeedHenry-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FeedHenry-Swift.h"; path = "FeedHenry/FeedHenry-Swift.h"; sourceTree = "<group>"; };
+		9E4CB7507E363DBDBE70B63978D42326 /* FHSyncNotificationMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHSyncNotificationMessage.h; path = FeedHenry/Sync/FHSyncNotificationMessage.h; sourceTree = "<group>"; };
+		A4D0ED7D5B71394A50A2CEE965556B80 /* StringResponseSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringResponseSerializer.swift; path = AeroGearHttp/StringResponseSerializer.swift; sourceTree = "<group>"; };
+		A7AE8129F5582E0C2AF9285C52B7CB96 /* MultiPartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiPartData.swift; path = AeroGearHttp/MultiPartData.swift; sourceTree = "<group>"; };
+		AA37579576796B3247835B68664C7F63 /* Pods-blank-ios-app-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-blank-ios-app-frameworks.sh"; sourceTree = "<group>"; };
+		AD4ABCA22684A541908B09B0A75EDFB9 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		B2BBCE7A3BAD5E8C8CD6346110F43673 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EFBA5AB54AC8FB329A72FF819F3366 /* FeedHenry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FeedHenry.xcconfig; sourceTree = "<group>"; };
+		B5F1DBCDD4BAC85DC9A11AD74B97F9F9 /* FHSyncDataset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHSyncDataset.m; path = FeedHenry/Sync/FHSyncDataset.m; sourceTree = "<group>"; };
+		B635FD8D867C4BFEE8EA7C9D8532D5FC /* FHSyncDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHSyncDelegate.h; path = FeedHenry/Sync/FHSyncDelegate.h; sourceTree = "<group>"; };
+		BAC718BDE39A551C7996D6A1D773BD28 /* FHDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHDefines.h; path = FeedHenry/Sync/FHDefines.h; sourceTree = "<group>"; };
+		BF32E87962A9237E0EF506EBB06A02DD /* FHJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHJSON.m; path = FeedHenry/Sync/FHJSON.m; sourceTree = "<group>"; };
+		C1A8F764EDD2AFB6874149F058849F60 /* OAuthViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthViewController.swift; path = FeedHenry/OAuth/OAuthViewController.swift; sourceTree = "<group>"; };
+		C20E0538347CC2604C0AD212A70961DA /* JsonResponseSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JsonResponseSerializer.swift; path = AeroGearHttp/JsonResponseSerializer.swift; sourceTree = "<group>"; };
+		C5E76D3584D71797B1698090DB94E9C3 /* FeedHenry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FeedHenry.modulemap; sourceTree = "<group>"; };
+		C7725520808748E1EE89A13AD8A7F664 /* AeroGearHttp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AeroGearHttp-dummy.m"; sourceTree = "<group>"; };
+		D1A7A759776A9E2DB57E3279E0A73EE7 /* RequestSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestSerializer.swift; path = AeroGearHttp/RequestSerializer.swift; sourceTree = "<group>"; };
+		DB864D7FC4FE5CEABEBBF5DE02A4AA00 /* AeroGearHttp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AeroGearHttp.xcconfig; sourceTree = "<group>"; };
+		DF05A6FD57A4F1874846DAADFB598AD4 /* Pods-blank-ios-app-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-blank-ios-app-dummy.m"; sourceTree = "<group>"; };
+		E43834842908F2F3D759F894E5C87CA6 /* Pods_blank_ios_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_blank_ios_app.framework; path = "Pods-blank-ios-app.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90A1810BA609B5642CDCEC24A2D9F85 /* Pods-blank-ios-app.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-blank-ios-app.modulemap"; sourceTree = "<group>"; };
+		ED57315AEFCADEA5ADE25E4CD1B07F8D /* Pods-blank-ios-app-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-blank-ios-app-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3AC2EE567807506B956F88CBEBBFF24 /* FHSyncDataRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHSyncDataRecord.h; path = FeedHenry/Sync/FHSyncDataRecord.h; sourceTree = "<group>"; };
+		F458D2918D9F4BD5E3559D770EFD2D1F /* FHSyncDataset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHSyncDataset.h; path = FeedHenry/Sync/FHSyncDataset.h; sourceTree = "<group>"; };
+		F52A8E83E024A0739474D7D9FD5B3399 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5FF10DE538F96E7D074C36BB2900AF7 /* FHSyncClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHSyncClient.m; path = FeedHenry/Sync/FHSyncClient.m; sourceTree = "<group>"; };
+		F712A7132D744E392CD03765ECC52F08 /* ClientDeviceInformationImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClientDeviceInformationImpl.swift; path = AeroGearPush/ClientDeviceInformationImpl.swift; sourceTree = "<group>"; };
+		FBB2E0C2DF35489E4BE7B0A0C9493E63 /* AeroGearHttp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AeroGearHttp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC680ECFC75C2DAFC4C48AE8F0802BF /* JsonRequestSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JsonRequestSerializer.swift; path = AeroGearHttp/JsonRequestSerializer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07AC32B6FE8D5A56FEE62279A0278A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3884DEE04982FB7D73EB7F7D2043FAD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		098C2BDF91E6F84261659C0669CB65A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B1E80D0FDE5E3B8CC418F7DCFCC98E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C4B2B077008FAEE65C3FC882021073B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEFF27053D552ECE58944692FAE0869 /* Foundation.framework in Frameworks */,
+				B3C10D2ECA64FAE1B71202AE36557C4D /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B8519D28F53565573FC8559892E784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800F032CC685912EBE0536E693CD7029 /* AeroGearHttp.framework in Frameworks */,
+				5083AE6DE2074A07613A9ED3EE4C9524 /* AeroGearPush.framework in Frameworks */,
+				3969DBF09ABFDB8F241424984B24C4C9 /* Foundation.framework in Frameworks */,
+				F196BD280743EBDE2803D58B6D8CEF5C /* Reachability.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0ADDCFEF04D751E914A32D6554E196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A285B8375E8399604ADCA1B3B17C3814 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13AE3D53CEF13C70678479EEC89438F1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7657FE5B9E9659F624658FCF2166D74B /* Foundation.framework */,
+				999526F31A6D99BA0B164892DB2EA4D2 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2750FFDA8D126546283EDE613EF250DF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B97011B239DB7A26C7DCEC4103C9C1CF /* Pods-blank-ios-app */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		41359FBF5A55428CD12C914D4104DEA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5E76D3584D71797B1698090DB94E9C3 /* FeedHenry.modulemap */,
+				B5EFBA5AB54AC8FB329A72FF819F3366 /* FeedHenry.xcconfig */,
+				55AF2F45C53ED7B43EA9260A9FC221D2 /* FeedHenry-dummy.m */,
+				27C58A480CC9D34932FC7AD1B01EC10E /* FeedHenry-prefix.pch */,
+				042415AD3A8156E00EBC81AF1D0A2875 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FeedHenry";
+			sourceTree = "<group>";
+		};
+		45401ADD4D4F7C034CB7721243C09490 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D8522F21202C9D30F7433EE99A2747E /* Info.plist */,
+				4F8F0C447C70EB6B9EF075C014590391 /* ReachabilitySwift.modulemap */,
+				139485AC5F744A9142E4BBBF038E2042 /* ReachabilitySwift.xcconfig */,
+				6F08DE00A736C027346412B6137D1B95 /* ReachabilitySwift-dummy.m */,
+				23B39BF0ADE138F228ECE86FD143FEA2 /* ReachabilitySwift-prefix.pch */,
+				AD4ABCA22684A541908B09B0A75EDFB9 /* ReachabilitySwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		6FB48E7B4BCF0ADDF372BC53E555EF62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4C29053EFDDD34496302D95003B8F3A /* AeroGearHttp */,
+				9A60D639A0802B94322642066A306B48 /* AeroGearPush-Swift */,
+				F657CFCA114CE444B480B815532CCB7B /* FeedHenry */,
+				AD9B083E14C393AEE7CA291BF8876047 /* ReachabilitySwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C36EA5ECBBC1CBC905286B2B85A55BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBB2E0C2DF35489E4BE7B0A0C9493E63 /* AeroGearHttp.framework */,
+				659EC397D978576B435BA7EAD030EAB0 /* AeroGearPush.framework */,
+				39AA443C77D20F9FD0EE57ACF8282423 /* Reachability.framework */,
+				13AE3D53CEF13C70678479EEC89438F1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7C36EA5ECBBC1CBC905286B2B85A55BF /* Frameworks */,
+				6FB48E7B4BCF0ADDF372BC53E555EF62 /* Pods */,
+				D9D321BD4E1BF8F15C6251B0B5E687EE /* Products */,
+				2750FFDA8D126546283EDE613EF250DF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		889350D6A1270FB5474E70C44BC13727 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6694D6050197820229A52D5EB3F2ACA4 /* AeroGearHttp.modulemap */,
+				DB864D7FC4FE5CEABEBBF5DE02A4AA00 /* AeroGearHttp.xcconfig */,
+				C7725520808748E1EE89A13AD8A7F664 /* AeroGearHttp-dummy.m */,
+				6ABC2433D8DB21CB3BBE41B109D85380 /* AeroGearHttp-prefix.pch */,
+				421E729E16DAA6209BAE1886FE2E615C /* AeroGearHttp-umbrella.h */,
+				F52A8E83E024A0739474D7D9FD5B3399 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AeroGearHttp";
+			sourceTree = "<group>";
+		};
+		9A60D639A0802B94322642066A306B48 /* AeroGearPush-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				91E81844C9ED9AA70C2336093E606366 /* ClientDeviceInformation.swift */,
+				F712A7132D744E392CD03765ECC52F08 /* ClientDeviceInformationImpl.swift */,
+				06810438CF6FF00EC8563BE1ED63F310 /* DeviceRegistration.swift */,
+				37002A0172D735C825EB1F3FD1BC99FA /* PushAnalytics.swift */,
+				AEE886893B4E982F3F0AA560F76079D3 /* Support Files */,
+			);
+			name = "AeroGearPush-Swift";
+			path = "AeroGearPush-Swift";
+			sourceTree = "<group>";
+		};
+		AD9B083E14C393AEE7CA291BF8876047 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				82443E57FDC1A1717C63742DFCCED5E0 /* Reachability.swift */,
+				45401ADD4D4F7C034CB7721243C09490 /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		AEE886893B4E982F3F0AA560F76079D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F2AED1ECA1F3CC485111CA2E2C64CA8 /* AeroGearPush-Swift.modulemap */,
+				253D4A204218707C215FB05FD6F85467 /* AeroGearPush-Swift.xcconfig */,
+				4EE649B7EC691DB894B4EE8479C3994D /* AeroGearPush-Swift-dummy.m */,
+				6FF390580819CA532B2650C641D3F5A0 /* AeroGearPush-Swift-prefix.pch */,
+				0885CBC873D7A5FC2B27D59B97A41852 /* AeroGearPush-Swift-umbrella.h */,
+				B2BBCE7A3BAD5E8C8CD6346110F43673 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AeroGearPush-Swift";
+			sourceTree = "<group>";
+		};
+		B97011B239DB7A26C7DCEC4103C9C1CF /* Pods-blank-ios-app */ = {
+			isa = PBXGroup;
+			children = (
+				08245A734D2FC250E03F6E575D311721 /* Info.plist */,
+				E90A1810BA609B5642CDCEC24A2D9F85 /* Pods-blank-ios-app.modulemap */,
+				ED57315AEFCADEA5ADE25E4CD1B07F8D /* Pods-blank-ios-app-acknowledgements.markdown */,
+				40EBBB7351A7071004FD762B17B2F52C /* Pods-blank-ios-app-acknowledgements.plist */,
+				DF05A6FD57A4F1874846DAADFB598AD4 /* Pods-blank-ios-app-dummy.m */,
+				AA37579576796B3247835B68664C7F63 /* Pods-blank-ios-app-frameworks.sh */,
+				68C070F62C5DB069EE28FEAC9A98E07E /* Pods-blank-ios-app-resources.sh */,
+				83E7E96C2AA4D3AC4DB166756E69930C /* Pods-blank-ios-app-umbrella.h */,
+				0DD84BFDD9B593FDBD02EE4F3A9CAD85 /* Pods-blank-ios-app.debug.xcconfig */,
+				0873BEACBE30A142A7D92BCF2C61C117 /* Pods-blank-ios-app.release.xcconfig */,
+			);
+			name = "Pods-blank-ios-app";
+			path = "Target Support Files/Pods-blank-ios-app";
+			sourceTree = "<group>";
+		};
+		D9D321BD4E1BF8F15C6251B0B5E687EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AFA1000F57E0C2F67B0A11E6681BCF4 /* AeroGearHttp.framework */,
+				6DC7E7A7E305ABCDB08D123398720287 /* AeroGearPush.framework */,
+				3434EA9B55EF32DF43829E132DAFA6AC /* FeedHenry.framework */,
+				E43834842908F2F3D759F894E5C87CA6 /* Pods_blank_ios_app.framework */,
+				5753238BED3969FB869597EBA5B8FA0D /* Reachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4C29053EFDDD34496302D95003B8F3A /* AeroGearHttp */ = {
+			isa = PBXGroup;
+			children = (
+				9C09DBEF4270FBC8A129DD26DADB6F18 /* AuthzModule.swift */,
+				30BCAF15A70051DB6895A9A132C48BEB /* Http.swift */,
+				8D3F4AB989E18896E4DDCB73673B2D91 /* HttpRequestSerializer.swift */,
+				FDC680ECFC75C2DAFC4C48AE8F0802BF /* JsonRequestSerializer.swift */,
+				C20E0538347CC2604C0AD212A70961DA /* JsonResponseSerializer.swift */,
+				A7AE8129F5582E0C2AF9285C52B7CB96 /* MultiPartData.swift */,
+				D1A7A759776A9E2DB57E3279E0A73EE7 /* RequestSerializer.swift */,
+				76A97FB901B2F92253BE0B7A32F6FBC2 /* ResponseSerializer.swift */,
+				A4D0ED7D5B71394A50A2CEE965556B80 /* StringResponseSerializer.swift */,
+				46A1B8E3019CFD7CA5727DDFDA136F5D /* Utils.swift */,
+				889350D6A1270FB5474E70C44BC13727 /* Support Files */,
+			);
+			name = AeroGearHttp;
+			path = AeroGearHttp;
+			sourceTree = "<group>";
+		};
+		F657CFCA114CE444B480B815532CCB7B /* FeedHenry */ = {
+			isa = PBXGroup;
+			children = (
+				0A0F84F3BE0D8F7D5B810F372CDA341E /* AuthRequest.swift */,
+				9CC49A09F045F773503BD48776FC215F /* CloudProps.swift */,
+				5FABBC71A940E6E615471717124BA427 /* CloudRequest.swift */,
+				5793FAC6BBDADDEEFF0057AE3EBA4767 /* Config.swift */,
+				6E21ED48FFCF14462FDB243C04631B3E /* FeedHenry.h */,
+				9DF31FEDFB003A6E4723FB2182A00446 /* FeedHenry-Swift.h */,
+				9B903C3533FE6A5B60A1FD986873CA87 /* FH.swift */,
+				BAC718BDE39A551C7996D6A1D773BD28 /* FHDefines.h */,
+				9D77F0B8293E954FD1E79D78D1439904 /* FHJSON.h */,
+				BF32E87962A9237E0EF506EBB06A02DD /* FHJSON.m */,
+				2CB08E50AEEAC425651C6D210ED13D72 /* FHSyncClient.h */,
+				F5FF10DE538F96E7D074C36BB2900AF7 /* FHSyncClient.m */,
+				331374C3F5E7EEE8058609F2706B8BF5 /* FHSyncConfig.h */,
+				85E4871D2BD51BEF4BE006CB7C63C647 /* FHSyncConfig.m */,
+				F3AC2EE567807506B956F88CBEBBFF24 /* FHSyncDataRecord.h */,
+				2CEF121E6F1F9F2CD71B200812DCE527 /* FHSyncDataRecord.m */,
+				F458D2918D9F4BD5E3559D770EFD2D1F /* FHSyncDataset.h */,
+				B5F1DBCDD4BAC85DC9A11AD74B97F9F9 /* FHSyncDataset.m */,
+				B635FD8D867C4BFEE8EA7C9D8532D5FC /* FHSyncDelegate.h */,
+				9E4CB7507E363DBDBE70B63978D42326 /* FHSyncNotificationMessage.h */,
+				3EF2583A93E3CCCB179583F3AC68C0F4 /* FHSyncNotificationMessage.m */,
+				7A27EC5414EBD8CF0B264EE6FD32A851 /* FHSyncPendingDataRecord.h */,
+				2AB6144126DE7E13C9A41FB95CC84544 /* FHSyncPendingDataRecord.m */,
+				4BAF61599849B7561F71202FA57F772B /* FHSyncUtils.h */,
+				917976865373C865F6C76ADC69934827 /* FHSyncUtils.m */,
+				201F578A2AD2782E5313FCC68AE60CF5 /* InitRequest.swift */,
+				C1A8F764EDD2AFB6874149F058849F60 /* OAuthViewController.swift */,
+				4C885F5818DC77D2706A2C4D0915E8B1 /* PushConfig.swift */,
+				192C90A6170C24E4F40A0A7CB941A255 /* Request.swift */,
+				5B0F250BE7C042FF851FAA49055AA39A /* Response.swift */,
+				41359FBF5A55428CD12C914D4104DEA9 /* Support Files */,
+			);
+			name = FeedHenry;
+			path = FeedHenry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		49CDBC17E0B1FA297935461EC6282AE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A85E0A189A08FF7E9282C087557E4C /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A55190602781E1983F37E2ECDF596B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA94E34F92A0ADC6C34E9D9B798C48D /* AeroGearPush-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9619E10B3D14BE2BF680E43F51737BF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BE452BD0D5FA5D175301B86429F623 /* AeroGearHttp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B568D5785FA120E3B32D94EE35569CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				258F10B3B29D58004157590619B53DBD /* Pods-blank-ios-app-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6DF7BEA9CCBEA1E63C7972A48692D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07223BDC7689C939CEE5E45841BB890F /* FeedHenry-Swift.h in Headers */,
+				296BB9B1DE85144F1F9426BD670FA758 /* FeedHenry.h in Headers */,
+				4A8D553041E84AFE0CF11DFE06FF0DB1 /* FHDefines.h in Headers */,
+				B2F5F6A84070E991F0B0262CA07C42E7 /* FHJSON.h in Headers */,
+				61DBAC6EE076DCC349F6422BC196DA9F /* FHSyncClient.h in Headers */,
+				3CC7B5CD5992A2E60A1D713C8FFC4B6E /* FHSyncConfig.h in Headers */,
+				D155E060A73F7FA61528D039BF524705 /* FHSyncDataRecord.h in Headers */,
+				9928118B8B70EA5E5DE1BEE1CA8AE54A /* FHSyncDataset.h in Headers */,
+				4268388B5D6D1EB34AFC5A041C5FEB35 /* FHSyncDelegate.h in Headers */,
+				A263CD7DA2021657C0CD227E81A6DB92 /* FHSyncNotificationMessage.h in Headers */,
+				21FF9A845A5E7C879C04D6E0A2E77240 /* FHSyncPendingDataRecord.h in Headers */,
+				4D2F340B0A85F18ADAEEF63B99331D00 /* FHSyncUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A9243EF5ACC09ADE120BA5882A9CADB /* AeroGearPush-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113C9EF510A4CEE159E09397DF4FA93B /* Build configuration list for PBXNativeTarget "AeroGearPush-Swift" */;
+			buildPhases = (
+				F8B0D1B396AF102DCC64F04FC9319D0E /* Sources */,
+				9F0ADDCFEF04D751E914A32D6554E196 /* Frameworks */,
+				61A55190602781E1983F37E2ECDF596B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AeroGearPush-Swift";
+			productName = "AeroGearPush-Swift";
+			productReference = 6DC7E7A7E305ABCDB08D123398720287 /* AeroGearPush.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		477EC8912E9BECF0C4B18AFDB535A4D1 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B3D3A4C14616F4F37FDCBD3B7DBDF8D /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				7298FD7B98CD9884D79CB5382F0D5213 /* Sources */,
+				3C4B2B077008FAEE65C3FC882021073B /* Frameworks */,
+				49CDBC17E0B1FA297935461EC6282AE7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = 5753238BED3969FB869597EBA5B8FA0D /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		671CE4CC88904B8E0E42AD6C33AA6320 /* Pods-blank-ios-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E1CE675CDFE4B720196B3D450350C1C /* Build configuration list for PBXNativeTarget "Pods-blank-ios-app" */;
+			buildPhases = (
+				64771C5D8B5000ACFDD9ABFF6C5A73B7 /* Sources */,
+				07AC32B6FE8D5A56FEE62279A0278A6D /* Frameworks */,
+				9B568D5785FA120E3B32D94EE35569CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D21EF4737A1ACD4CB660783EB27E416A /* PBXTargetDependency */,
+				B33E8E13BF5FA17438120D1CFB1BF3A5 /* PBXTargetDependency */,
+				1A2E4F377EBC66B2CDE755EBB14E2FF3 /* PBXTargetDependency */,
+				6DFA5645FE094326DECF779E78418A6A /* PBXTargetDependency */,
+			);
+			name = "Pods-blank-ios-app";
+			productName = "Pods-blank-ios-app";
+			productReference = E43834842908F2F3D759F894E5C87CA6 /* Pods_blank_ios_app.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88980A53447DB0D8FFE6E1D440A7D67B /* FeedHenry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510C374656AFFB03A9DD5C5EFB4975AF /* Build configuration list for PBXNativeTarget "FeedHenry" */;
+			buildPhases = (
+				C3D3540AC76C5F035AF508376DDB9D74 /* Sources */,
+				99B8519D28F53565573FC8559892E784 /* Frameworks */,
+				BE6DF7BEA9CCBEA1E63C7972A48692D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C2C9FCA80F4526B12C7F11B2BCCB3A1 /* PBXTargetDependency */,
+				F0661AB6021964E992A69D5987C099A5 /* PBXTargetDependency */,
+				1AC5935C4627C97AAA7E89B6717A5E7B /* PBXTargetDependency */,
+			);
+			name = FeedHenry;
+			productName = FeedHenry;
+			productReference = 3434EA9B55EF32DF43829E132DAFA6AC /* FeedHenry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AAF1DD1DE413A1969136F1BFB030B08 /* AeroGearHttp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E168269C67323FBF1451E6B7F0BE36 /* Build configuration list for PBXNativeTarget "AeroGearHttp" */;
+			buildPhases = (
+				6293261724FBEC85D651407EBF7D0DF0 /* Sources */,
+				098C2BDF91E6F84261659C0669CB65A0 /* Frameworks */,
+				9619E10B3D14BE2BF680E43F51737BF3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AeroGearHttp;
+			productName = AeroGearHttp;
+			productReference = 9AFA1000F57E0C2F67B0A11E6681BCF4 /* AeroGearHttp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D9D321BD4E1BF8F15C6251B0B5E687EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AAF1DD1DE413A1969136F1BFB030B08 /* AeroGearHttp */,
+				3A9243EF5ACC09ADE120BA5882A9CADB /* AeroGearPush-Swift */,
+				88980A53447DB0D8FFE6E1D440A7D67B /* FeedHenry */,
+				671CE4CC88904B8E0E42AD6C33AA6320 /* Pods-blank-ios-app */,
+				477EC8912E9BECF0C4B18AFDB535A4D1 /* ReachabilitySwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6293261724FBEC85D651407EBF7D0DF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B50128CF98227F927B106F4149BF885 /* AeroGearHttp-dummy.m in Sources */,
+				7549AB375C3BAE7805BBEA3E70FD0FAD /* AuthzModule.swift in Sources */,
+				FC6516F2268BA356ECE05AC77A25CC3F /* Http.swift in Sources */,
+				D4FF638CDDCD29D576E96608320A23AE /* HttpRequestSerializer.swift in Sources */,
+				B7B49D390DB3A174E4A8D5E996CEE025 /* JsonRequestSerializer.swift in Sources */,
+				04B92A4A07207690E0F684EA0F5CD017 /* JsonResponseSerializer.swift in Sources */,
+				DA514F97D3EC99FF9BD4DCA60874AB77 /* MultiPartData.swift in Sources */,
+				FFA3B9FDF7FD78243B1585089FE798D5 /* RequestSerializer.swift in Sources */,
+				583128F162DB5ECA00D3EA65F5D4EB8B /* ResponseSerializer.swift in Sources */,
+				1ABDCB051C87EFF9F04EEDDB44544B29 /* StringResponseSerializer.swift in Sources */,
+				2141ACC5529BB76399F748A6997E29A1 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64771C5D8B5000ACFDD9ABFF6C5A73B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D8140C05F8609B21EA51CBB8839746 /* Pods-blank-ios-app-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7298FD7B98CD9884D79CB5382F0D5213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8352FAE4A05191485D1A268FEFE651C /* Reachability.swift in Sources */,
+				4A263EEC537D28B04CF0C01D25B1DE57 /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D3540AC76C5F035AF508376DDB9D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587C06A6790F7D8CF4E5B9F94B1B2A4D /* AuthRequest.swift in Sources */,
+				9DADADDE49A59F3C9DCCEBFCF5AC4EFD /* CloudProps.swift in Sources */,
+				EC015F679BB3325876C31DBE11D3F6AE /* CloudRequest.swift in Sources */,
+				DE63CB8872A7899D7A40D6C3122E1CE7 /* Config.swift in Sources */,
+				7A599F4113A79EC1414F72B213A7671C /* FeedHenry-dummy.m in Sources */,
+				C705066A76A4AF89FA7FEE76B58BD4A1 /* FH.swift in Sources */,
+				6D5EDB28C2EBD1DADA66728E2951225B /* FHJSON.m in Sources */,
+				0BF221F2DA215CA9D50B404F836A6C24 /* FHSyncClient.m in Sources */,
+				C2787880B8A9B25F510CD6D41145A866 /* FHSyncConfig.m in Sources */,
+				1CEC2146B6FBAB19B63BD1F2EF73CAEC /* FHSyncDataRecord.m in Sources */,
+				482543038BD4B6815A1485C866E37E1F /* FHSyncDataset.m in Sources */,
+				46DBE792A3F93B07F984F50F926991F1 /* FHSyncNotificationMessage.m in Sources */,
+				A807CE494B179C0D5E0FD4E6F8ED27A1 /* FHSyncPendingDataRecord.m in Sources */,
+				8C162A1133B0B32C2DA59D57DAE489D9 /* FHSyncUtils.m in Sources */,
+				17CD24BE4DAAB127BC68BC9C9E35DE71 /* InitRequest.swift in Sources */,
+				5C2BAC8DD4C80D666388C7FEEC31D484 /* OAuthViewController.swift in Sources */,
+				D366EF07F555375C9703B3F54867D286 /* PushConfig.swift in Sources */,
+				FE0DB6CCCA9B4029C38D1BDD8B7A26C4 /* Request.swift in Sources */,
+				4AF8D894121C6A751008D40FAF9B0EBE /* Response.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B0D1B396AF102DCC64F04FC9319D0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4588B9C78DC70CB57DED5115DDA4318E /* AeroGearPush-Swift-dummy.m in Sources */,
+				E87AE372AFE87BAE79EB79137DEBF6ED /* ClientDeviceInformation.swift in Sources */,
+				B82A6F1F2F45DDD489BD6A5A2A69B80F /* ClientDeviceInformationImpl.swift in Sources */,
+				2EEC62316436446607214E022636F27A /* DeviceRegistration.swift in Sources */,
+				73260370825ACE24DC7D299A0B4BE273 /* PushAnalytics.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A2E4F377EBC66B2CDE755EBB14E2FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FeedHenry;
+			target = 88980A53447DB0D8FFE6E1D440A7D67B /* FeedHenry */;
+			targetProxy = BE23B79F76F1DA6F24E7BC582764A20C /* PBXContainerItemProxy */;
+		};
+		1AC5935C4627C97AAA7E89B6717A5E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 477EC8912E9BECF0C4B18AFDB535A4D1 /* ReachabilitySwift */;
+			targetProxy = 99D38040FAB2B2F80A1FD7CD89D17AFF /* PBXContainerItemProxy */;
+		};
+		4C2C9FCA80F4526B12C7F11B2BCCB3A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AeroGearHttp;
+			target = 8AAF1DD1DE413A1969136F1BFB030B08 /* AeroGearHttp */;
+			targetProxy = D70A84C7C21D53066A79AAA1EF5822A5 /* PBXContainerItemProxy */;
+		};
+		6DFA5645FE094326DECF779E78418A6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 477EC8912E9BECF0C4B18AFDB535A4D1 /* ReachabilitySwift */;
+			targetProxy = D927BEB5C2E1F1C27253A06F29A7B7F4 /* PBXContainerItemProxy */;
+		};
+		B33E8E13BF5FA17438120D1CFB1BF3A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AeroGearPush-Swift";
+			target = 3A9243EF5ACC09ADE120BA5882A9CADB /* AeroGearPush-Swift */;
+			targetProxy = F3ADFAC228A1AC8E0E1AE3A12A6BD4CE /* PBXContainerItemProxy */;
+		};
+		D21EF4737A1ACD4CB660783EB27E416A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AeroGearHttp;
+			target = 8AAF1DD1DE413A1969136F1BFB030B08 /* AeroGearHttp */;
+			targetProxy = 0F5BE83DD9F52907161262E8BD6BFCC4 /* PBXContainerItemProxy */;
+		};
+		F0661AB6021964E992A69D5987C099A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AeroGearPush-Swift";
+			target = 3A9243EF5ACC09ADE120BA5882A9CADB /* AeroGearPush-Swift */;
+			targetProxy = 054DCEBFE76AC91FE33EC344121131A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FAEE0097667212DCD1263E76F447912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5EFBA5AB54AC8FB329A72FF819F3366 /* FeedHenry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FeedHenry/FeedHenry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FeedHenry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FeedHenry/FeedHenry.modulemap";
+				PRODUCT_NAME = FeedHenry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A2C297133D44015A5518E3AFCAF80F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139485AC5F744A9142E4BBBF038E2042 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38594B20BE2EDB69345E1FBA5794627B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5EFBA5AB54AC8FB329A72FF819F3366 /* FeedHenry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FeedHenry/FeedHenry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FeedHenry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FeedHenry/FeedHenry.modulemap";
+				PRODUCT_NAME = FeedHenry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7B18CE3EC111877EA445CC4A8962D5E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253D4A204218707C215FB05FD6F85467 /* AeroGearPush-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AeroGearPush-Swift/AeroGearPush-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AeroGearPush-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AeroGearPush-Swift/AeroGearPush-Swift.modulemap";
+				PRODUCT_NAME = AeroGearPush;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		967FB9069619C38147A83898AEAAA086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253D4A204218707C215FB05FD6F85467 /* AeroGearPush-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AeroGearPush-Swift/AeroGearPush-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AeroGearPush-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AeroGearPush-Swift/AeroGearPush-Swift.modulemap";
+				PRODUCT_NAME = AeroGearPush;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9EB2DC3D684227CB10FAE6B66FA04FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DD84BFDD9B593FDBD02EE4F3A9CAD85 /* Pods-blank-ios-app.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-blank-ios-app/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-blank-ios-app/Pods-blank-ios-app.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_blank_ios_app;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A978FDBD5C29132711AC0FCC5F98921A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0873BEACBE30A142A7D92BCF2C61C117 /* Pods-blank-ios-app.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-blank-ios-app/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-blank-ios-app/Pods-blank-ios-app.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_blank_ios_app;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C185FA6BA959A6F77AC36F1AB1ED8721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB864D7FC4FE5CEABEBBF5DE02A4AA00 /* AeroGearHttp.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AeroGearHttp/AeroGearHttp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AeroGearHttp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AeroGearHttp/AeroGearHttp.modulemap";
+				PRODUCT_NAME = AeroGearHttp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC336B6F38863D3FC5D06A9124A60574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139485AC5F744A9142E4BBBF038E2042 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0F5C244DC29AA5ECEBA8664F7DC8B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB864D7FC4FE5CEABEBBF5DE02A4AA00 /* AeroGearHttp.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AeroGearHttp/AeroGearHttp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AeroGearHttp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AeroGearHttp/AeroGearHttp.modulemap";
+				PRODUCT_NAME = AeroGearHttp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		113C9EF510A4CEE159E09397DF4FA93B /* Build configuration list for PBXNativeTarget "AeroGearPush-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967FB9069619C38147A83898AEAAA086 /* Debug */,
+				7B18CE3EC111877EA445CC4A8962D5E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510C374656AFFB03A9DD5C5EFB4975AF /* Build configuration list for PBXNativeTarget "FeedHenry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FAEE0097667212DCD1263E76F447912 /* Debug */,
+				38594B20BE2EDB69345E1FBA5794627B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B3D3A4C14616F4F37FDCBD3B7DBDF8D /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC336B6F38863D3FC5D06A9124A60574 /* Debug */,
+				1A2C297133D44015A5518E3AFCAF80F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E1CE675CDFE4B720196B3D450350C1C /* Build configuration list for PBXNativeTarget "Pods-blank-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB2DC3D684227CB10FAE6B66FA04FAD /* Debug */,
+				A978FDBD5C29132711AC0FCC5F98921A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E168269C67323FBF1451E6B7F0BE36 /* Build configuration list for PBXNativeTarget "AeroGearHttp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F5C244DC29AA5ECEBA8664F7DC8B29 /* Debug */,
+				C185FA6BA959A6F77AC36F1AB1ED8721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
