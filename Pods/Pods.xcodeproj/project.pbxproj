@@ -143,7 +143,7 @@
 		2CEF121E6F1F9F2CD71B200812DCE527 /* FHSyncDataRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHSyncDataRecord.m; path = FeedHenry/Sync/FHSyncDataRecord.m; sourceTree = "<group>"; };
 		30BCAF15A70051DB6895A9A132C48BEB /* Http.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Http.swift; path = AeroGearHttp/Http.swift; sourceTree = "<group>"; };
 		331374C3F5E7EEE8058609F2706B8BF5 /* FHSyncConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHSyncConfig.h; path = FeedHenry/Sync/FHSyncConfig.h; sourceTree = "<group>"; };
-		3434EA9B55EF32DF43829E132DAFA6AC /* FeedHenry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FeedHenry.framework; path = FeedHenry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3434EA9B55EF32DF43829E132DAFA6AC /* FeedHenry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FeedHenry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37002A0172D735C825EB1F3FD1BC99FA /* PushAnalytics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushAnalytics.swift; path = AeroGearPush/PushAnalytics.swift; sourceTree = "<group>"; };
 		39AA443C77D20F9FD0EE57ACF8282423 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF2583A93E3CCCB179583F3AC68C0F4 /* FHSyncNotificationMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHSyncNotificationMessage.m; path = FeedHenry/Sync/FHSyncNotificationMessage.m; sourceTree = "<group>"; };
@@ -154,18 +154,18 @@
 		4C885F5818DC77D2706A2C4D0915E8B1 /* PushConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushConfig.swift; path = FeedHenry/PushConfig.swift; sourceTree = "<group>"; };
 		4D8522F21202C9D30F7433EE99A2747E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EE649B7EC691DB894B4EE8479C3994D /* AeroGearPush-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AeroGearPush-Swift-dummy.m"; sourceTree = "<group>"; };
-		4F2AED1ECA1F3CC485111CA2E2C64CA8 /* AeroGearPush-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "AeroGearPush-Swift.modulemap"; sourceTree = "<group>"; };
-		4F8F0C447C70EB6B9EF075C014590391 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		4F2AED1ECA1F3CC485111CA2E2C64CA8 /* AeroGearPush-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "AeroGearPush-Swift.modulemap"; sourceTree = "<group>"; };
+		4F8F0C447C70EB6B9EF075C014590391 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
 		55AF2F45C53ED7B43EA9260A9FC221D2 /* FeedHenry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FeedHenry-dummy.m"; sourceTree = "<group>"; };
-		5753238BED3969FB869597EBA5B8FA0D /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5753238BED3969FB869597EBA5B8FA0D /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5793FAC6BBDADDEEFF0057AE3EBA4767 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = FeedHenry/Config/Config.swift; sourceTree = "<group>"; };
 		5B0F250BE7C042FF851FAA49055AA39A /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = FeedHenry/Cloud/Response.swift; sourceTree = "<group>"; };
 		5FABBC71A940E6E615471717124BA427 /* CloudRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloudRequest.swift; path = FeedHenry/Cloud/CloudRequest.swift; sourceTree = "<group>"; };
 		659EC397D978576B435BA7EAD030EAB0 /* AeroGearPush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AeroGearPush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6694D6050197820229A52D5EB3F2ACA4 /* AeroGearHttp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AeroGearHttp.modulemap; sourceTree = "<group>"; };
+		6694D6050197820229A52D5EB3F2ACA4 /* AeroGearHttp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AeroGearHttp.modulemap; sourceTree = "<group>"; };
 		68C070F62C5DB069EE28FEAC9A98E07E /* Pods-blank-ios-app-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-blank-ios-app-resources.sh"; sourceTree = "<group>"; };
 		6ABC2433D8DB21CB3BBE41B109D85380 /* AeroGearHttp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AeroGearHttp-prefix.pch"; sourceTree = "<group>"; };
-		6DC7E7A7E305ABCDB08D123398720287 /* AeroGearPush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AeroGearPush.framework; path = "AeroGearPush-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC7E7A7E305ABCDB08D123398720287 /* AeroGearPush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AeroGearPush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E21ED48FFCF14462FDB243C04631B3E /* FeedHenry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FeedHenry.h; path = FeedHenry/FeedHenry.h; sourceTree = "<group>"; };
 		6F08DE00A736C027346412B6137D1B95 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
 		6FF390580819CA532B2650C641D3F5A0 /* AeroGearPush-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AeroGearPush-Swift-prefix.pch"; sourceTree = "<group>"; };
@@ -178,9 +178,9 @@
 		8D3F4AB989E18896E4DDCB73673B2D91 /* HttpRequestSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpRequestSerializer.swift; path = AeroGearHttp/HttpRequestSerializer.swift; sourceTree = "<group>"; };
 		917976865373C865F6C76ADC69934827 /* FHSyncUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHSyncUtils.m; path = FeedHenry/Sync/FHSyncUtils.m; sourceTree = "<group>"; };
 		91E81844C9ED9AA70C2336093E606366 /* ClientDeviceInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClientDeviceInformation.swift; path = AeroGearPush/ClientDeviceInformation.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		999526F31A6D99BA0B164892DB2EA4D2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		9AFA1000F57E0C2F67B0A11E6681BCF4 /* AeroGearHttp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AeroGearHttp.framework; path = AeroGearHttp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFA1000F57E0C2F67B0A11E6681BCF4 /* AeroGearHttp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AeroGearHttp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B903C3533FE6A5B60A1FD986873CA87 /* FH.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FH.swift; path = FeedHenry/FH.swift; sourceTree = "<group>"; };
 		9C09DBEF4270FBC8A129DD26DADB6F18 /* AuthzModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthzModule.swift; path = AeroGearHttp/AuthzModule.swift; sourceTree = "<group>"; };
 		9CC49A09F045F773503BD48776FC215F /* CloudProps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloudProps.swift; path = FeedHenry/Config/CloudProps.swift; sourceTree = "<group>"; };
@@ -199,13 +199,13 @@
 		BF32E87962A9237E0EF506EBB06A02DD /* FHJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FHJSON.m; path = FeedHenry/Sync/FHJSON.m; sourceTree = "<group>"; };
 		C1A8F764EDD2AFB6874149F058849F60 /* OAuthViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthViewController.swift; path = FeedHenry/OAuth/OAuthViewController.swift; sourceTree = "<group>"; };
 		C20E0538347CC2604C0AD212A70961DA /* JsonResponseSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JsonResponseSerializer.swift; path = AeroGearHttp/JsonResponseSerializer.swift; sourceTree = "<group>"; };
-		C5E76D3584D71797B1698090DB94E9C3 /* FeedHenry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FeedHenry.modulemap; sourceTree = "<group>"; };
+		C5E76D3584D71797B1698090DB94E9C3 /* FeedHenry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FeedHenry.modulemap; sourceTree = "<group>"; };
 		C7725520808748E1EE89A13AD8A7F664 /* AeroGearHttp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AeroGearHttp-dummy.m"; sourceTree = "<group>"; };
 		D1A7A759776A9E2DB57E3279E0A73EE7 /* RequestSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestSerializer.swift; path = AeroGearHttp/RequestSerializer.swift; sourceTree = "<group>"; };
 		DB864D7FC4FE5CEABEBBF5DE02A4AA00 /* AeroGearHttp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AeroGearHttp.xcconfig; sourceTree = "<group>"; };
 		DF05A6FD57A4F1874846DAADFB598AD4 /* Pods-blank-ios-app-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-blank-ios-app-dummy.m"; sourceTree = "<group>"; };
-		E43834842908F2F3D759F894E5C87CA6 /* Pods_blank_ios_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_blank_ios_app.framework; path = "Pods-blank-ios-app.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E90A1810BA609B5642CDCEC24A2D9F85 /* Pods-blank-ios-app.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-blank-ios-app.modulemap"; sourceTree = "<group>"; };
+		E43834842908F2F3D759F894E5C87CA6 /* Pods_blank_ios_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_blank_ios_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90A1810BA609B5642CDCEC24A2D9F85 /* Pods-blank-ios-app.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-blank-ios-app.modulemap"; sourceTree = "<group>"; };
 		ED57315AEFCADEA5ADE25E4CD1B07F8D /* Pods-blank-ios-app-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-blank-ios-app-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3AC2EE567807506B956F88CBEBBFF24 /* FHSyncDataRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHSyncDataRecord.h; path = FeedHenry/Sync/FHSyncDataRecord.h; sourceTree = "<group>"; };
 		F458D2918D9F4BD5E3559D770EFD2D1F /* FHSyncDataset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHSyncDataset.h; path = FeedHenry/Sync/FHSyncDataset.h; sourceTree = "<group>"; };
@@ -364,7 +364,6 @@
 				37002A0172D735C825EB1F3FD1BC99FA /* PushAnalytics.swift */,
 				AEE886893B4E982F3F0AA560F76079D3 /* Support Files */,
 			);
-			name = "AeroGearPush-Swift";
 			path = "AeroGearPush-Swift";
 			sourceTree = "<group>";
 		};
@@ -374,7 +373,6 @@
 				82443E57FDC1A1717C63742DFCCED5E0 /* Reachability.swift */,
 				45401ADD4D4F7C034CB7721243C09490 /* Support Files */,
 			);
-			name = ReachabilitySwift;
 			path = ReachabilitySwift;
 			sourceTree = "<group>";
 		};
@@ -437,7 +435,6 @@
 				46A1B8E3019CFD7CA5727DDFDA136F5D /* Utils.swift */,
 				889350D6A1270FB5474E70C44BC13727 /* Support Files */,
 			);
-			name = AeroGearHttp;
 			path = AeroGearHttp;
 			sourceTree = "<group>";
 		};
@@ -476,7 +473,6 @@
 				5B0F250BE7C042FF851FAA49055AA39A /* Response.swift */,
 				41359FBF5A55428CD12C914D4104DEA9 /* Support Files */,
 			);
-			name = FeedHenry;
 			path = FeedHenry;
 			sourceTree = "<group>";
 		};
@@ -637,6 +633,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					8AAF1DD1DE413A1969136F1BFB030B08 = {
+						DevelopmentTeam = 9SK3G5DSSE;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1191,10 +1192,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9SK3G5DSSE;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
